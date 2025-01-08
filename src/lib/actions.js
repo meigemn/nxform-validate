@@ -48,6 +48,7 @@ export async function realAction(prevState, formData) {
     try {
         // Hacemos algo (guardar en BD, enviar a API, ...) con
         // result.data
+        console.log(result.data);
         return { success: 'Éxito al realizar acción' }
     } catch (error) {
         console.log("Error:", error);
