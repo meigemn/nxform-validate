@@ -44,7 +44,7 @@ function Formulario() {
                 // min={18} max={65}
                 />
             </div>
-            {state?.issues?.edad && state.issues.edad}
+            {state.issues?.edad && state.issues.edad}
 
 
 
@@ -54,7 +54,7 @@ function Formulario() {
                     defaultValue={state.payload?.get("email") || ""}  // para recuperar el valor introducido previamente
                 />
             </div>
-            {state?.issues?.email && state.issues.email}
+            {state.issues?.email && state.issues.email}
 
 
 
@@ -66,7 +66,7 @@ function Formulario() {
                 // title="9 dígitos, siendo el primero 6,7 u 8"
                 />
             </div>
-            {state?.issues?.telefono && state.issues.telefono}
+            {state.issues?.telefono && state.issues.telefono}
 
 
 
@@ -77,7 +77,7 @@ function Formulario() {
                 // min="2024-01-01" max="2024-12-31"
                 />
             </div>
-            {state?.issues?.fecha && state.issues.fecha}
+            {state.issues?.fecha && state.issues.fecha}
 
 
 
@@ -87,7 +87,7 @@ function Formulario() {
                     defaultValue={state.payload?.get("comentario") || ""}  // para recuperar el valor introducido previamente
                 />
             </div>
-            {state?.issues?.comentario && state.issues.comentario}
+            {state.issues?.comentario && state.issues.comentario}
 
 
 
