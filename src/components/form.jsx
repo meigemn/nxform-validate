@@ -25,6 +25,8 @@ function Formulario() {
             <div className="flex justify-between px-4 py-2 rounded-md bg-slate-200">
                 <label htmlFor="nombre">Nombre:</label>
                 <input id="nombre" name="nombre" className="ring-2"
+                    // pattern="[A-Za-zÑñÁÉÍÓÚáéíóú]{1,5}"
+                    // title="Mínimo 1 letra, máximo 5 letras"
                     defaultValue={state.payload?.get("nombre") || ""}  // para recuperar el valor introducido previamente
                 />
             </div>
