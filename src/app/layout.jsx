@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Toaster } from "sonner";
+import { Toaster } from "sonner";/* para que funcionen los toasts . En el toaster se  va a poner el componente que queramos notificar */
 
 
 const geistSans = Geist({
